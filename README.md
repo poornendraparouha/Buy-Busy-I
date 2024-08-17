@@ -1,4 +1,4 @@
-# Busy Buy I
+# Buy-Busy-I
 
 Busy Buy is an e-commerce web application built with React. It allows users to sign up, sign in, browse products, add them to the cart, and make purchases.
 
@@ -12,7 +12,9 @@ Busy Buy is an e-commerce web application built with React. It allows users to s
 ## Project Structure
 
 The project is organized into several components, pages, and context files.
+
 ## src
+
 - Components
 - Context
 - Database
@@ -21,36 +23,48 @@ The project is organized into several components, pages, and context files.
 ## Getting Started
 
 ## Firestore Database Structure
+
 #### collections:
+
 - users: Store users information.
 - cart: Store cart items of all users.
 - orders: store orders of all users.
 
 ## Getting Started
+
 To get a local copy of the project and run it on your machine, follow these steps:
 
 ### Prerequisites
+
 - Node.js and npm/yarn installed on your machine
 - Firebase project and credentials (Firestore setup)
 
 ### Installation
+
 1. Clone the repository:
-- git clone https://github.com/ParmodKumar28/BuyBusy-I
+
+- git clone https://github.com/poornendraparouha/Buy-Busy-I.git
 
 2. Navigate to the project directory:
-- cd BuyBusy-I
+
+- cd Buy-Busy-I
 
 3. Install dependencies:
+
 - npm install
 
 4. Set up Firebase:
+
 - Create a Firebase project and set up Firestore.
 - Obtain Firebase configuration credentials.
 - Add Firebase config in firebaseConfig.js or similar, if not already present.
 
-### Usage 
+### Usage
+
 1. Start the development server:
+
 - npm start
 
 2. Open the app in your browser:
+
 - http://localhost:3000
